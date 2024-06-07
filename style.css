@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+body {
+    background-color: #dadada;
+}
+
+.order_and_reutrn {
+    color: white;
+}
+
+a {
+    color: wheat;
+}
+
+b {
+    color: white;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f1111;
+    height: 48px;
+}
+
+#logo {
+    height: 30px;
+    width: 100px;
+    padding: 14px 10px 0px 5px;
+
+}
+
+.items {
+    color: #ccc;
+    width: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.items:hover {
+    border: 2px solid white;
+}
+
+.items2:hover {
+    border: 1px solid white;
+
+}
+
+/* .search_icon{
+    height: 24px;
+  width: 21px;
+  position: relative;
+  top: 12px;
+  right: 4px;
+}
+*/
+#searcher {
+    padding-left: 10px;
+    width: 38vw;
+    border: 0;
+    height: 30.2px;
+    border: 0;
+    z-index: 1;
+
+}
+
+#searcher:focus {
+    outline: none;
+}
+
+#category {
+    border-radius: 3px 0px 0px 3px;
+    padding: 2px;
+    height: 30px;
+    border: 0;
+    background-color: #dadada;
+    cursor: pointer;
+
+
+}
+
+.search_instruments {
+    width: 515px;
+    display: flex;
+    margin-top: 7px;
+    border: 2px solid;
+    height: 30px;
+    border-radius: 3px;
+
+}
+
+.search_instruments:hover {
+    border: 3px solid rgb(207, 147, 5);
+    border-radius: 6px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.items2 {
+    display: inline-block;
+    padding: 4px 10px 7px 10px;
+    cursor: pointer;
+    margin-bottom: 6px;
+
+
+}
+
+ul {
+    background-color: #232F3E;
+    color: whitesmoke;
+
+}
+
+.banner {
+    position: absolute;
+    top: 68px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+
+.global_version {
+    margin: 200px 10px 30px 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f6f6;
+    font-size: 14px;
+
+}
+
+.box {
+
+    display: inline-block;
+    margin: 0 6px 20px 6px;
+    height: 385px;
+    width: 365px;
+    border: 1px solid rgb(181, 174, 174);
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+
+
+}
+
+.cart_icon {
+    height: 34px;
+    width: 32px;
+}
+
+.search_icon {
+    border-radius: 0px 3px 3px 0px;
+    background-color: #ffc438;
+    height: 13px;
+    width: 12px;
+    margin-right: 6px;
+    margin-top: 5px;
+    padding-left: 7px;
+    margin-left: 6px;
+    padding-right: 7px;
+    transform: scale(1.5);
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.account_login {
+    font-size: 12px;
+    width: 87px;
+}
+
+
+.small_boxes {
+    height: 100%;
+    width: 100%;
+
+}
+
+.small_boxe {
+    display: inline-block;
+    background-color: red;
+    margin: 15px 22px 15px 22px;
+    width: 136px;
+    height: 113px;
+
+}
+
+.single_img_container,
+.largest_img {
+    margin: 1px 14px 0px 14px;
+    height: 86%;
+    width: 92%;
+}
+
+.box_tag {
+    padding: 5px;
+}
+
+.product_info {
+    margin-left: 22px;
+}
+
+.see_more {
+    position: relative;
+    color: #4894c9;
+    top: 21px;
+    left: 0px;
+}
+
+.back_to_top {
+    cursor: pointer;
+    background-color: rgb(48 67 73);
+    margin-top: 20px;
+    text-align: center;
+    padding: 17px;
+    color: white;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #232F3E;
+    ;
+}
+
+.foot1_box {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: wheat;
+
+}
+
+.foot1_box_items {
+    color: rgb(160, 146, 146);
+    display: block;
+    margin-top: 10px;
+
+}
+
+.foot1_box_items:hover {
+    text-decoration: underline;
+}
+
+.foot_a_inside2 {
+    padding-top: 28px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    background-color: #232F3E;
+}
+
+.outro_boxes {
+    display: flex;
+    font-size: 12px;
+    border: 1.5px solid gray;
+    margin: 6px;
+    position: relative;
+    border-radius: 7px;
+    left: 53px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 28px 0 8px;
+    align-items: center;
+}
+
+.items3 {
+    display: flex
+}
+
+.foot_b_inside2 {
+    padding-top: 28px;
+    background-color: #131A22;
+}
+
+.small_link_boxes {
+    font-size: 14px;
+    margin-bottom: 44px;
+    margin-left: 54px;
+    display: inline-block;
+    height: 80px;
+    width: 97px;
+    color: wheat;
+}
+
+.small_link_boxes:hover {
+    text-decoration: underline;
+}
+
+.foot_c_inside2 {
+    padding-top: 28px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+}
+
+.policies {
+    font-size: 13px;
+    padding: 9px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: wheat;
+    background-color: #131A22;
+    padding-bottom: 32px;
+}
+
+.big_container {
+    background-color: white;
+    height: 280px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: 2px solid gainsboro;
+    display: flex;
+    scrollbar-color: red;
+    scrollbar-width: thin;
+    margin-bottom: 20px;
+}
+
+.big_container_boxes_img {
+    height: 200px;
+}
+
+.big_container_boxes {
+    height: 200px;
+    position: relative;
+    top: 48px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.big_box_tag {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.sign_in_reccomend {
+    background-color: white;
+    padding: 32px 0px 32px 0px;
+}
+
+.personal_info {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#sign_in_btn {
+    width: 230px;
+    height: 28px;
+    background-color: #ffb600;
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.hamburger {
+    position: relative;
+    top: 3px;
+    height: 22px;
+    width: 23px;
+    margin-right: 4px;
+}
+
+.location {
+    position: relative;
+    /*already inherited by hamburger id */
+    left: 8px;
+}
+
+#nav_country_name {
+    position: absolute;
+    top: 24px;
+    left: 165px;
+    font-size: 15px;
+    color: white;
+}
+
+.arrow_lang_change {
+    background: #494949;
+    height: 13px;
+    width: 13px;
+    position: relative;
+    margin-left: 3px;
+    top: 9px;
+}
